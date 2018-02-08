@@ -1,2 +1,4 @@
-# TipCalculator-Project-Clark
-A tip calculator made in Android Studio w/ Java
+# Tip Calculator | CSCI-490
+---
+#### Written in Java, made in Android Studio.
+##### By Andrew Clark
