@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Tip Calculator</string>
+    <string name="selTip">selectedTip</string>
+    <string name="totBill">totalBill</string>
+    <string name="totSplit">totalSplit</string>
+    <string name="custTipText">customTipText</string>
+    <string name="res">result</string>
+    <string name="defaultRes">$X TIP PER PERSON</string>
+    <string name="close">Close</string>
+    <string name="err">Error</string>
+    <string name="errBillAmount">You may not enter a bill amount less than $1</string>
+    <string name="errSplit">You must split the bill with at least one person.</string>
+    <string name="errTip">You must tip more than 1%</string>
+    <string name="usd">$</string>
+    <string name="defResConst"> TIP PER PERSON</string>
+    <string name="custom_tip_percent">Custom Tip Percent</string>
+    <string name="total_people">Total People</string>
+    <string name="total_bill_amount">Total Bill Amount</string>
+    <string name="tip_calculator">Tip Calculator</string>
+    <string name="_15">15%</string>
+    <string name="_20">20%</string>
+    <string name="_25">25%</string>
+    <string name="custom">Custom</string>
+    <string name="calc">Calculate</string>
+    <string name="reset">Reset</string>
+</resources>

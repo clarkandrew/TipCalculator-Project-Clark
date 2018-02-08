@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/_16dp"
+    android:paddingRight="@dimen/_16dp"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/_16dp"
+        android:paddingRight="@dimen/_16dp"
+
+        android:layout_marginBottom="@dimen/parentLayoutBotMarg"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/_16dp"
+        android:paddingRight="@dimen/_16dp">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/tip_calculator"
+            android:textAlignment="center"
+            android:textColor="#27ae60"
+            android:textSize="@dimen/titleTextSize"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="@dimen/titleTopMarg"/>
+
+        <EditText
+            android:id="@+id/totalBill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/darker_gray"
+            android:ems="10"
+            android:hint="@string/total_bill_amount"
+            android:inputType="number"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/totalSplit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/total_people"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:backgroundTint="@android:color/darker_gray"/>
+
+        <EditText
+            android:id="@+id/customTip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/darker_gray"
+            android:ems="10"
+            android:visibility="gone"
+            android:hint="@string/custom_tip_percent"
+
+            android:inputType="number"
+            android:textAlignment="center" />
+
+
+
+        <RadioGroup
+            android:id="@+id/tipGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/tip15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_15"
+                android:buttonTint="@android:color/darker_gray"/>
+
+            <RadioButton
+                android:id="@+id/tip20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_20"
+                android:buttonTint="@android:color/darker_gray"/>
+
+
+            <RadioButton
+                android:id="@+id/tip25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_25"
+                android:buttonTint="@android:color/darker_gray"
+            />
+
+            <RadioButton
+                android:id="@+id/tipCustom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/custom"
+                android:buttonTint="@android:color/darker_gray"
+            />
+
+        </RadioGroup>
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/_16dp"
+        android:paddingRight="@dimen/_16dp"
+        android:layout_marginTop="@dimen/botLayoutMargTop">
+
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10dp"
+            android:text="@string/defaultRes"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_20sp"
+            android:visibility="invisible"/>
+
+        <Button
+            android:id="@+id/calcButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/subButHeight"
+            android:layout_marginTop="@dimen/subButMargTop"
+            android:background="@drawable/calcbutton"
+            android:text="@string/calc"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_20sp"
+            android:enabled="false"/>
+
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/resButHeight"
+            android:layout_marginTop="@dimen/_10dp"
+            android:background="@drawable/resetbutton"
+            android:text="@string/reset"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_15"
+            android:layout_marginBottom="@dimen/_15"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

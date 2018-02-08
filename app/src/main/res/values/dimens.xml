@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="resButHeight">32dp</dimen>
+    <dimen name="subButHeight">50dp</dimen>
+    <dimen name="subButMargTop">5dp</dimen>
+    <dimen name="titleTextSize">30sp</dimen>
+    <dimen name="_15">15dp</dimen>
+    <dimen name="_10dp">10dp</dimen>
+    <dimen name="_16dp">16dp</dimen>
+    <dimen name="_20sp">20sp</dimen>
+    <dimen name="parentLayoutBotMarg">140dp</dimen>
+    <dimen name="botLayoutMargTop">-140dp</dimen>
+    <dimen name="titleTopMarg">20dp</dimen>
+</resources>
